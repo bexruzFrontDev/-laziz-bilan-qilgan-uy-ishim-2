@@ -1,0 +1,81 @@
+*{
+    margin:0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    width: 95%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.Hamasi {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.n-left {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+
+}
+
+
+.center img {
+    width: 100px;
+    border-radius: 50%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+
+
+header {
+    width: 100%;
+    height: 100vh;
+    background: url(https://www.alibimenstyle.uz/storage/banners//zQPPCoLMrp3jFzUtzBHszFTHdAW7CqbbJgLVjDc7.jpg) no-repeat center center/cover;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+
+    .card {
+        margin-top: 20px;
+        border: 2px solid rgb(223, 220, 220);
+        border-radius: 10px;
+        padding: 10px 10px;
+        text-align: center;
+        cursor: pointer;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+        img {
+            width: 100%;
+        }
+    }
+}
+.h-bir{
+     font-size:20px ;
+     font-weight:40px ;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     a{
+        text-decoration: none;
+        color: #fff;
+     }
+}
